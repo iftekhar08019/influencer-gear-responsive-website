@@ -10,15 +10,13 @@
     width: 100%;
     margin: 0 auto 50px auto;
   }
+  .banner-imgg{
+    width: 50%;
+  }
   .logo-container {
-    grid-template-rows: auto auto; /* Two rows */
-    grid-template-columns: repeat(4, 1fr); /* Four columns for the first row */
-    gap: 60px;
-  }
-  .logo-container:nth-child(5),
-  .logo-container:nth-child(6),
-  .logo-container:nth-child(7) {
-    grid-column: span 4 / span 4; /* Make these three items span the entire row */
-    justify-self: center;
-  }
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+    width: 80%; 
+}
 }
