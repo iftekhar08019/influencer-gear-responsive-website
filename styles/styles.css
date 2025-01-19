@@ -53,6 +53,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-bottom: 70px;
 }
 .content>h1{
     font-size: 3.25rem;
@@ -64,4 +65,19 @@ header{
 
 .banner-img{
     background-image: url("../images/Circle design.svg");
+}
+.logo{
+    justify-content: center;
+   
+}
+.logo-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 60px;
+    max-width: 1110px;
+    place-items: center;
+    border-top:0.5px solid rgb(170, 170, 170);
+    border-bottom:0.5px solid rgb(170, 170, 170);
+    padding: 36px 62px;
+
 }

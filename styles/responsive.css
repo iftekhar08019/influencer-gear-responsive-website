@@ -1,12 +1,24 @@
-@media screen and (max-width: 576px){
-    .navbar{
-        flex-direction: column;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .banner{
-        flex-direction: column-reverse;
-        width: 100%;
-        margin: 0 auto;
-    }
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0 auto 50px auto;
+  }
+  .logo-container {
+    grid-template-rows: auto auto; /* Two rows */
+    grid-template-columns: repeat(4, 1fr); /* Four columns for the first row */
+    gap: 60px;
+  }
+  .logo-container:nth-child(5),
+  .logo-container:nth-child(6),
+  .logo-container:nth-child(7) {
+    grid-column: span 4 / span 4; /* Make these three items span the entire row */
+    justify-self: center;
+  }
 }
