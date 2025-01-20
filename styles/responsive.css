@@ -7,12 +7,10 @@
 
   .banner {
     flex-direction: column-reverse;
-    width: 100%;
+    width: 20%;
     margin: 0 auto 50px auto;
   }
-  .banner-imgg{
-    width: 50%;
-  }
+
   .logo-container {
     display: flex;
     gap:30px;
@@ -21,4 +19,22 @@
     justify-content: space-around;
     align-items: center;
 }
+
+#burger{
+display: inline;
+}
+.links-list{
+    display: none;
+}
+.mobile-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+#cart{
+    display: inline;
+}
+
 }

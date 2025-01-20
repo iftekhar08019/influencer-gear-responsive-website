@@ -29,6 +29,9 @@
 }
 
 /* navbar styles */
+#burger{
+    display: none;
+}
 header{
     margin: 85px 120px 70px 120px;
 }
@@ -36,8 +39,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.navbar>h3{
+.mobile-nav>h3{
     font-size: 1.5rem;
+}
+#cart{
+    display: none;
 }
 .links-list{
    list-style: none; 
